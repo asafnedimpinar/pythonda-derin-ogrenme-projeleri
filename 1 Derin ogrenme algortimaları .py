@@ -4,7 +4,6 @@ import numpy as np
 
 
 
-# Sigmoid aktivasyon fonksiyonunu tanımlar
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
